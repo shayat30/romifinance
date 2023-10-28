@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #191919;
+}
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.bg-body-tertiary {
+    background-color: #2e2e2e!important;
+}
+.navbar-brand {
+    color: rgb(255 255 255) !important;
+}
+.navbar {
+    
+    padding: 0px !important;;
+}
+.nav-link {
+    color: rgb(255 255 255 / 65%) !important;
+}
+li.nav-item {
+    padding: 0px 10px;
+}
+img.Logo {
+    width: 50px;
+}
+.btn{
+    background-color: #207a59 !important;
+    color: white;
+}
+.wellet {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 0px 10px;
+}
+img.wellet-card {
+    padding: 0px 5px;
+}
+a.wellet-link {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.storke {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 4px;
+}
+i.fa-solid.fa-mars-stroke-up {
+    color: white;
+    padding: 5px;
+}
+span.storke-right-boder {
+    border-right: 2px solid #4f4e4e;
+    margin: 5px;
+}
+
+/* ....................................navbar complete ......................................................... */
+.exchange.section {
+
+}
+h2.exchange-heading {
+    color: white;
+    font-size: 3rem;
+    padding: 10px 0px;
+}
+p.exchange-content {
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 0px;
+    margin: 0px !important;
+}
+button.exchange-button {
+    width: 150px;
+    border-radius: 4px;
+    height: 44px;
+    margin: 10px 0px;
+    background-color: #0abd7b;
+    color: white;
+    border: none;
+}
+button.exchange-button:hover {
+    background-color: #207a59;
+}
+
+.icon-card {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid;
+    width: 20%;
+    padding: 20px 0px;
+    height: auto;
+}
+
+/* ....................................exchange.section ......................................................... */
+
+.icon-section {
+    padding: 30px 0px;
+}
+.container.iconic {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icon-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid;
+    width: 300px;
+    padding: 20px 0px;
+    height: auto;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+img.icon-card-one-img {
+    padding: 0px 7px;
+}
+h5.card-heading {
+    color: white;
+    font-size: 1.3rem;
+    margin: 0rem !important;
+}
+p.card-content1 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0rem !important;
+}
+
+/* .....................................icon-section ......................................................... */
+.line {
+    border-top: 1px solid gray;
+    /* background-color: black; */
+    padding: 40px 0px;
+}
+
+/* .....................................line......................................................... */
+
+h2.reduce-heading {
+    display: inline;
+    font-size: 2rem;
+    margin: 0rem !important;
+    padding: 0px 0px;
+    color: white;
+}
+.reduce-icon {
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+}
+p.reduce-content-one {
+    font-size: 1rem;
+    padding: 15px 5px;
+    color: white;
+    margin: 0rem;
+}
+.reduce-section-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+/* ......................................reduce-section-main......................................................... */
+.container.two-token-section {
+    padding: 20px 0px;
+}
+
+h2.card-two-main-content {
+    color: white;
+    font-size: 2rem;
+    margin: 0rem;
+}
+img.zomi-img {
+    width: 50px;
+}
+h1.comi-heading {
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0rem;
+    padding: 0px 10px;
+}
+.img-card-two {
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+}
+p.zomi-content {
+    margin: 0rem;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+h2.ethereum-heading {
+    padding: 10px 0px;
+    color: white;
+    margin: 0rem;
+}
+button.buy-one {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #0abd7b;
+    border-radius: 4px;
+    border: none;
+}
+button.buy-one:hover {
+    background-color: #207a59;
+}
+button.readmore-two {
+    width: 160px;
+    height: 40px;
+    color: white;
+    background-color: #0abd7b;
+    border-radius: 4px;
+    border: none;
+    margin: 5px 0px;
+}
+button.readmore-two:hover {
+    background-color: #207a59;
+}
+.card-two-section {
+    border: 2px solid gray;
+    width: 39rem;
+    height: auto;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 5px;
+}
+.container.two-token-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* ......................................reduce-section-main......................................................... */
+
+.line-two{
+    border-top: 1px solid gray;
+    padding-bottom: 50px 0px;
+    margin-bottom: 30px 0px;
+}
+img.logo-two-img {
+    width: 60px;
+    height: auto;
+}
+span.logo-two-content {
+    color: white;
+    font-size: 1.5rem;
+}
+p.last-content {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+a.footer-one-img {
+    text-decoration: none;
+}
+.footer-one{
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img.last-one {
+    padding: 20px;
+}
+
+/* ...................................................start-dashboard............................. */
+
+h5.state-heading {
+    font-size: 2rem;
+    color: white;
+    margin: 0rem;
+}
+h5.token-heading {
+    font-size: 2rem;
+    color: white;
+    margin: 0rem;
+}
+.hed-img {
+    display: flex;
+    align-items: center;
+    padding: 0p;
+    margin: 0px;
+}
+img.state-img {
+    padding: 0px 5px;
+}
+.state-para {
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+.token-para {
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+.stat {
+    padding: 30px 0px;
+}
+
+
+.card-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h2.heading-card {
+    color: white;
+    margin: 0rem;
+    padding: 10px 10px;
+}
+.overview-card {
+    border: 1px solid gray;
+    width: 40rem;
+    height: auto;
+    border-radius: 4px;
+    padding: 10px 0px;
+    margin: 5px 0px;
+}
+.top-border-card {
+    border-top: 2px solid gray;
+}
+.aum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aum-content {
+    color: gray;
+    font-size: 1rem;
+    padding: 10px 10px;
+}
+h1.heading-aum {
+    color: white;
+    font-size: 1.1rem;
+    margin: 0rem;
+    padding: 5px 10px;
+}
+
+/* ..............................earn-card...................... */
+.main-Earn{
+    padding: 40px 0px;
+}
+
+h5.state-heading {
+    font-size: 2rem;
+    color: white;
+    margin: 0rem;
+}
+
+.hed-img {
+    display: flex;
+    align-items: center;
+    padding: 0p;
+    margin: 0px;
+}
+img.state-img {
+    padding: 0px 5px;
+}
+.earn-para {
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+
+.card-earn-one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+h2.heading-card {
+    color: white;
+    margin: 0rem;
+    padding: 10px 10px;
+    font-size: 1rem;
+}
+.overview-card {
+    border: 1px solid #444343;
+    width: 40rem;
+    height: auto;
+    border-radius: 4px;
+    padding: 2px 0px;
+    margin: 5px 0px;
+    background-color: rgb(0, 0, 0);
+}
+.top-border-card {
+    border-top: 2px solid rgb(78, 78, 78);
+}
+.aum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aum-content {
+    color: gray;
+    font-size: 1rem;
+    padding: 10px 10px;
+}
+h1.heading-aum {
+    color: white;
+    font-size: 1.1rem;
+    margin: 0rem;
+    padding: 5px 10px;
+}
+button.aum-btm {
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: #0abd7b;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 6px;
+}
+button.aum-btm:hover {
+    background-color: #207a59;
+}
+button.aum-btm-two {
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: #0abd7b;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 6px;
+}
+button.aum-btm-two:hover {
+    background-color: #207a59;
+}
+p.hidde-content {
+    visibility: hidden;
+}
+
+/* ...................................card-earn-one{................................................ */
+
+.card-earn-two{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ...................................card-earn-two{................................................ */
+
+.card-earn-three{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* ............................
